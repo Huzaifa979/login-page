@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("architecture-1869776_1920.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 171px;
+    /* border: 2px outset black; */
+    height: 67vh;
+    border-radius: 12px;
+    width: 28vw;
+    color: white;
+}
+
+input[type="email"],
+input[type="password"],
+.btn {
+    background: transparent;
+    border: none;
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 2.5rem;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box {
+    padding-top: 2px;
+    /* border-bottom: 2px solid purple; */
+    border-bottom: 2px solid white;
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    outline: none;
+    color: white;
+}
+
+.box[type="email"] {
+    margin-top: 19px;
+    border-width: 0px;
+    border: none;
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    /* border: 2px solid purple; */
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+
+i {
+    padding-right: 8px;
+    height: 4vh;
+}
+
+@media only screen and (max-width: 414px) {
+    h1 {
+        font-size: 1.5rem;
+        width: 38%;
+        margin-bottom: 22px;
+        padding: 8px 0;
+    }
+    .container {
+        margin-top: 180px;
+        height: 67vh;
+        width: 75vw;
+    }
+    .box {
+        width: 75%;
+    }
+    .btn {
+        font-size: 1.1rem;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container {
+        margin-top: 205px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        margin-top: 235px;
+    }
+}
